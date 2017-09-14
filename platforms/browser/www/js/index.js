@@ -73,6 +73,7 @@ var app = {
 
         push.on('error', function(e) {
             console.log("push error = " + e.message);
+			 alert("push error = " + e.message);
         });
 
         push.on('notification', function(data) {
